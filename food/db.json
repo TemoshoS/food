@@ -1,0 +1,42 @@
+{
+  "food": [
+    {
+      "id": 5,
+      "name": "Apple cake",
+      "ingredients": "1. apples,\n2.pies",
+      "description": "You might noticed, I’m a huge fan of everything apple… apple cakes, apple pies, apple fritters and so much more. If I don’t have time to make something myself but desperately need some apple cake, I have no problem buying it in a store… cause I like it so much ;) There is one small bakery/café in my neighborhood that makes one of the best apple cakes I know. Even though I like this specific cake a lot, I still think homemade is better ;) Not because the homemade cakes taste better. No – it’s the whole process of baking an apple cake that makes homemade better than a store-bought cake. You make the dough, peel and dice the apples, season it the way you like and then bake it… The smell of an apple cake in the oven is the best! You can’t beat that.\n"
+    },
+    {
+      "id": 6,
+      "name": "Bacon egg breakfast ",
+      "ingredients": " ",
+      "description": "      description: 'bacon and egg breakfast pie Over the last few weeks (and months) my imagination has been completely wrapped around pies. I have been working on a big project that involved…'\n"
+    },
+    {
+      "id": 9,
+      "name": "Spicy Chickpea and Spinach Stew",
+      "ingredients": " 1. \n2.\n3.\n4.",
+      "description": "' This Spicy Chickpea and Spinach Stew recipe comes together in about 25 minutes. Serve it over couscous for an easy, delicious vegetarian dinner! Reader Survey Results When I did my reader survey, quite a few of you asked me to write more about the products I use everyday in my kitchen. Some people even requested that I take photos of the inside of my refrigerator. That was funny to me,…'\n"
+    },
+    {
+      "id": 10,
+      "name": "Chicken Stew",
+      "ingredients": " mice ",
+      "description": "Full chicken "
+    }
+  ],
+  "users": [
+    {
+      "firstName": "temom",
+      "lastName": "temo god",
+      "username": "temo",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "username": "temo",
+      "password": "123456",
+      "id": 2
+    }
+  ]
+}

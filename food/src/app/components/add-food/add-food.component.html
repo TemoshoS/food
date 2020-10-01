@@ -1,0 +1,49 @@
+<h4 style="color:gray;"><b>Food Form</b></h4>
+<div class="card bg-light">
+  <div class="card-body">
+<div>
+
+    <div class="submit-form">
+      <div *ngIf="!submitted">
+       
+        <div class="form-group">
+          <label for="name"><b>Name *</b></label>
+          <input class="form-control" id="description" [(ngModel)]="food.name" name="name"  placeholder="enter name" required/>
+        
+        </div>
+  
+
+
+        <div class="form-group">
+            <label for="description"><b>Description *</b></label>
+            <textarea class="form-control" id="description" [(ngModel)]="food.description" name="description" placeholder="Enter description" ></textarea>
+            
+           
+          </div>
+
+          <div class="form-group">
+            <label for="ingredients"><b>Ingredients *</b></label>
+            <textarea class="form-control" id="ingredients" [(ngModel)]="food.ingredients" name="ingredients"  placeholder="enter ingredients" required></textarea>
+          
+          </div>
+  
+  
+
+         <!-- <div class="form-group">
+            <input type="file" [(ngModel)]="food.image" name="image" accept="image/*"  (change)="readUrl($event)" class="form-control-file" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+          <img [src]="url">
+          </div>-->
+
+        <button (click)="saveFood()" class="btn btn-success">Submit</button>
+      
+      </div>
+  
+      <div *ngIf="submitted">
+        <h4 style="color: dodgerblue;"> <i>You submitted successfully!</i></h4>
+        <button class="btn btn-success" (click)="newFood()">add new one</button>
+      </div>
+     
+    </div>
+  </div>
+</div>
+</div>
